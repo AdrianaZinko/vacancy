@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vacancy</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="logo">
+          <a href="#" class="header__logo">
+            <img src="images/logo.svg" alt="">
+          </a>
+          <div class="header__text">Прямые работодатели для подборщиков мебели</div>
+        </div>
+        <div class="header__controls">
+          <a href="tel:+74956629523" class="header__call">+7 (495) 662-95-23</a>
+          <button class="header__callback">
+            <img class="header__callback-img" src="images/item-phone.svg" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section banner">
+    <div class="container">
+      <div class="banner__inner">
+        <h3 class="title banner__title">Ищем подборщиков мебели по дизайн проектам на постоянную работу</h3>
+        <div class="banner__subtitle subtitle">Трудоустройство без московской прописки, с «белой» зарплатой от
+          150 000 ₽ до 300 000 ₽
+        </div>
+        <ul class="banner__list list">
+          <li class="banner__item item">Зарплата без задержек <br> 2 раза в месяц</li>
+          <li class="banner__item item">Официальное рудоустройство</li>
+          <li class="banner__item item">Полный соц. пакет и возможность роста до руководителя отдела</li>
+          <li class="banner__item item">Работайте в своем темпе без простоя в заказах</li>
+        </ul>
+        <div class="banner__text">Узнайте прямо сейчас все актуальные вакансии с белой зарплатой до 300 000₽₽
+        </div>
+        <button class="btn">Узнать <br> все актуальные вакансии</button>
+
+        <img src="images/banner.jpg" alt="" class="banner__img">
+
+      </div>
+
+    </div>
+  </section>
+  <section class="section stages">
+    <div class="container">
+      <div class="stages__inner">
+        <h3 class="title title__stages">Ваша работа будет состоять из 5 этапов</h3>
+        <div class=" stages__subtitle subtitle">на каждом этапе вы взаимодействуете с ...</div>
+        <div class="stages__column">
+          <ol class="list stages__list">
+            <li class="item stages__item">Получаете готовый дизайн проект квартиры</li>
+            <li class="item stages__item">Подбираете мебель по дизайну из ..., по бюджету клиента</li>
+            <li class="item stages__item">Составляете каталог мебели с ценой и рекомендованным магазином для
+              покупки</li>
+            <li class="item stages__item">Утверждаете каталог с клиентом</li>
+            <li class="item stages__item">Сдаем итоговую работу</li>
+          </ol>
+          <img src="/images/stages.jpg" alt="" class="stages__img">
+        </div>
+        <div class="warning">
+          Чем больше объектов вы укомплектовываете, тем больше вы зарабатываете
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section get-work">
+    <div class="container">
+      <div class="get-work__wrapper">
+        <div class="subtitle get-work__subtitle">Заполните форму, чтобы получить постоянную работу подборщиком мебели в
+          Domeo</div>
+          <form action="/">
+            <div class="form__inner">
+              <div class="form__box">
+                <label for="name">Ввдите ваше имя</label>
+                <input class="form__input" type="text" id="name" name="name" placeholder="Например, Алексей">
+              </div>
+              <div class="form__box">
+                <label for="phone">Введите ваш телефон</label>
+                <input class="form__input" type="tel" name="phone" id="phone" placeholder="(___) ___ - __ - __">
+              </div>
+              <button class="form__btn btn ">Рассчитать заработную плату</button>
+            </div>
+          </form>
+        <div class="get-work__allow">
+          Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь c <a href="#"
+            class="form__confidentiality">политикой конфиденциальности</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section salary">
+    <div class="container">
+      <div class="salary__inner">
+        <h3 class="title salary__title">Рассчитайте вашу будущую зарплату в Domeo</h3>
+        <div class="subtitle salary__subtitle">ответьте на 3 ключевых вопроса по, которым мы определим вашу точную зарплату
+        </div>
+
+        <div class="parameters salary__parameters">
+          <div class="parameters-questions" id="questions" data-current-step="2"> </div>
+          <div class="parameters__result result-hidden" id="result">
+            <h3 class="title salary__title">Остался последний шаг</h3>
+        <div class="subtitle salary__subtitle">заполните форму для расчет вашей будущей зарплаты</div>
+            <form action="/">
+              <div class="form__inner">
+                <div class="form__box parameters__box">
+                  <label for="name">Ввдите ваше имя</label>
+                  <input class="form__input" type="text" id="name" name="name" placeholder="Например, Алексей">
+                </div>
+                <div class="form__box parameters__box">
+                  <label for="phone">Введите ваш телефон</label>
+                  <input class="form__input" type="tel" name="phone" id="phone" placeholder="(___) ___ - __ - __">
+                </div>
+                <button class="form__btn btn parameters-button">Рассчитать заработную плату</button>
+              </div>
+            </form>
+            <div class=" allow">
+              Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь c <a href="#"
+                class="form__confidentiality">политикой конфиденциальности</a>
+            </div>
+          </div>
+          <div class="parameters__controls">
+            <button class="btn-prev parameters__btn btn-prev-hidden" id="btn-prev">Назад</button>
+
+            <button class="btn-next parameters__btn" id="btn-next" disabled>далее</button>
+
+          </div>
+        </div>
+        
+      </div>
+  </section>
+  <section class="section steps">
+    <div class="container">
+     <div class="steps__inner">
+      <h3 class="title steps__title">Рассчитайте вашу будущую зарплату в Domeo</h3>
+      <div class="subtitle steps__subtitle">ответьте на 3 ключевых вопроса по, которым мы определим вашу точную зарплату
+      </div>
+      <ol class="steps__list">
+        <li class="steps__item">
+          <div class="steps__text">Отправьте  заявку на сайте</div>
+          <img src="images/steps-item-1.svg" alt="" class="steps__img">
+        </li>
+        <li class="steps__item">
+          <div class="steps__text">Пройдите собеседование
+            по телефону</div>
+          <img src="images/steps-item-2.svg" alt="" class="steps__img">
+        </li>
+        <li class="steps__item">
+          <div class="steps__text">Пройдите собеседование в офисе</div>
+          <img src="images/steps-item-3.svg" alt="" class="steps__img">
+        </li> 
+        <li class="steps__item">
+          <div class="steps__text">Приступаете к работе
+            в Domeo</div>
+          <img src="images/steps-item-4.svg" alt="" class="steps__img">
+        </li>
+      </ol>
+     </div>
+    </div>
+  </section>
+  <section class="section about">
+    <div class="container">
+      <div class="about__inner">
+        <h3 class="title about__title">Рассчитайте вашу будущую зарплату в Domeo</h3>
+        <div class="subtitle about__subtitle">ответьте на 3 ключевых вопроса по, которым мы определим вашу точную зарплату
+        </div>
+        <div class="about__row">
+          <div class="about__column-video">
+            <a href="#" class="about__link">Узнайте больше о компании Domeo за 1 минуту</a>
+            <iframe  class="about__video" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+            </iframe>
+            
+          </div>
+          <div class="about__column-content">
+            <p class="about__text">Domeo работает с 2010 года.</p>
+            <p class="about__text">За это время мы создали бизнес-структуру, которая работает как дорогие швейцарские часы.</p>
+            <p class="about__text">Секрет нашего успеха в лучших условиях и высокой зарплате для лучших сотрудников, в честности и прозрачности с людьми.</p>
+            <p class="about__text">Мы ценим сотрудников с большим опытом, а также создаём все условия для качественной работы.</p>
+            <p class="about__text">Присоединяйтесь к нам прямо сейчас!</p>
+          <button class="btn about__btn">Присоединиться к Domeo</button>
+          </div>
+          
+        </div>
+        <div class="warning">Мы ищем людей на постоянную работу. Нам нужны мастера для сотрудничества на долгие годы</div>
+      </div>
+    </div>
+  </section> 
+</body>
+
+</html>
